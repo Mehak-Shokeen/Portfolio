@@ -66,14 +66,13 @@ main {
   padding-top: 80px; 
 }
 section {
-  height: auto; /* Each section fills full screen height */
+  height: auto; 
   padding: 2rem;
-  color: #000; /* Text color */
+  color: #000; 
 }
 
-/* Different background colors */
 .About {
-  background-color: #ffffff; /* Light pink */
+  background-color: #ffffff; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,7 +116,7 @@ section {
 }
 
 #Projects {
-  background-color: #e6e6fa; /* Lavender */
+  background-color: #e6e6fa; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
    padding: 0 50px;
   margin: 50px 0;
@@ -154,8 +153,6 @@ section {
   from { width: 0; }
   to { width: 100%; }
 }
-
-/* Blinking Cursor */
 @keyframes blink {
   50% { border-color: transparent; }
 }
